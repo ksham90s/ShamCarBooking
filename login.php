@@ -66,6 +66,13 @@ if (isset($_POST['btn_login'])){
                         </div>';
                 }
               }
+              if (isset($_GET['success'])) {
+                if ($_GET['error']=="registered") {
+                  echo '<div class="alert alert-success" role="alert">
+                        Succesfully register.
+                        </div>';
+                }
+              }
             ?>
             <form class="form-signin" method="POST" action="login.php">
               <div class="form-label-group">
@@ -91,7 +98,7 @@ if (isset($_POST['btn_login'])){
                     <a class="small" href="#">Forgot Password?</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="register.php">Register Now!</a>
+                    <a class="small" href="register/register.php">Register Now!</a>
                   </div>
           </div>
         </div>
