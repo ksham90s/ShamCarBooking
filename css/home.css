@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;}
+form {
+	margin-left: 300px;
+	margin-right: 300px;
+	
+}
+
+.textbox{
+text-align: center;
+padding: 5px;
+font-size: 17px;
+ border: 1px solid #ccc;
+float: center;
+width: 100%;
+background: #FFFFFF;
+margin-top: 100px;	
+}
+.button:hover {
+  background: #B6CEC7;
+}
+.button:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.button{
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  color: black;
+  padding: 6px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
