@@ -95,7 +95,7 @@ if (isset($_POST['btn_login'])){
             <hr>
                   <!-- link to register and forgot password -->
                   <div class="text-center">
-                    <a class="small" href="#">Forgot Password?</a>
+                    <a class="small" href="forgot-password/forgot_password.php">Forgot Password?</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="register/register.php">Register Now!</a>
